@@ -1,0 +1,31 @@
+java program to print the next alphabets..
+
+INPUT:
+a
+
+OUTPUT:
+b
+
+INPUT:
+A
+
+
+OUTPUT:
+B
+
+JAVA PROGRAM:
+import java.util.*;
+public class alphabets{
+public static void main(String args[])
+{
+Scanner sc = new Scanner(System.in); 
+		char s =sc.next().charAt(0); 
+		
+		if(s>='a' && s<='z') {
+		s++;
+		System.out.println(s);}
+		if(s>='A' && s<='Z') {
+		s++;
+		System.out.println(s);}
+}
+}
